@@ -1,0 +1,24 @@
+<script src="../lib/tracery.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<h1>Text will go here</h1>
+<button onclick="generate()">Generate</button>
+<script>
+var grammarObj = {
+	"S": ["#Person#'s #CookingVessel# #Flavor# #Food# is #Guarantee#!", "#Guarantee#? #Person# just slammed #Person# with a #Flavor# #CookingVessel#", "You #Adjective#-ass #Noun#fucker", "You #Adjective##Noun#", "What the #Adjective##Noun#", "Oh my #Adjective##Noun#", "I feel like a #Noun#", "I will wreck you, you #Adjective##Noun#", "Holy #Adjective##Noun#", "Boo, you #Adjective# whore"],
+	"Person": ["Rachel Ray", "Martha Stewart", "Famous Dave", "Mom", "Guy Fieri", "Barefoot Contessa"],
+	"CookingVessel": ["Crock Pot", "Wok", "Easy-Bake Oven"],
+	"Flavor": ["Butterscotch", "Kale-icious", "Roasted", "Smoked", "Juicy", "Spicy", "Candied", "Dehydrated", "Sous Vide"],
+	"Food": ["Ravioli", "Brussel Sprouts", "Duck", "Steak", "Cajun Pasta", "Thin Mints", "Spicy With"],
+	"Guarantee": ["Sure To Knock Your Socks Off", "Ready To Rumble In Your Kitchen", "About To Take You Straight To Flavortown", "Gonna Have You Going Back For Seconds", "Gonna Make You Gay"],
+	"Adjective": ["hipster", "puffy", "broccoli-smelling", "mac-using", "nay-saying", "confused", "Freud-believing", "Trump-supporting", "fucking", "sweaty", "mcfricking", "mono-infested", "neon", "raunchy", "last season", "lumpy", "mega loser supreme", 			"super weenie", "saucy", "crusty", "crunchy", "fake", "duckfaced", "greasy", "crying", "milk-breathed", "baby-handed", "grool", "so-clueless-you-wear-pink-on-Thursdays-and-and-think-you’re-cool"],
+	"Noun": ["sausage", "butt", "dong", "misogynist", "grandpa", "fuckface", "bing-bong", "dickwad", "baboon", "pig", "mosquito", "slore", "baby", "sloth", "Regina"]
+}
+
+
+var grammar = tracery.createGrammar(grammarObj)
+function generate(){
+	var t = grammar.flatten("#S#");
+	$('h1').text(t);
+}
+</script>
