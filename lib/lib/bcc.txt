@@ -2661,7 +2661,6 @@ Aeschylus, Agamemnon
  Classical Philosophy of India
  Classics of Indian Literature
  The History of Greece from Archaic Times to the Death of Alexander
-from Homer's time to the establishment of the Hellenistic monarchies by the successors of Alexander the Great. The ancient sources are closely and critically studied 
  The Fall of Empires and Rise of Kings: Greek History 479 to 323 BC
  The Roman Reception of Greek Literature
  Roman History I: The Rise and Fall of an Imperial Republic
@@ -2826,7 +2825,6 @@ Guided Action and Cognitive Processes
  The Developing Brain
  Perceptual Development
  Relationships and Human Development
-child relationships, peer relationships emerging in the school years, relationships with significant adults outside the family, family relationships and functioning, and marital relationships. Also considers approaches to level Psychology concentrators. 
  Child Language Acquisition
 Cultural Perspectives on Child Development 
  Topics in Developmental Psychology
@@ -2857,7 +2855,6 @@ Cultural Perspectives on Child Development
  Topics in Psycholinguistics: Language + Memory
  Laboratory in Psycholinguistics
  Research Methods in Physiologic and Acoustic Phonetics
-form and spectrum analysis, electromyography, speed motion pictures, computer modeling of oral tract output, and experimental techniques involving the perception of synthetic and natural speech. 
  Senior Seminar in Cognitive Science
  Directed Reading in Cognitive, Linguistic and Psychological Sciences
  Directed Research in Cognitive, Linguistic and Psychological Sciences
@@ -2868,7 +2865,6 @@ form and spectrum analysis, electromyography, speed motion pictures, computer mo
  Current Topics in Memory Research
  Biological Foundations of the Mind
  Auditory Neuroscience
-depth analysis of the neural bases of auditory cognition. Topics to be discussed include object perception, spatial processing, auditory memory, illusions, cocktail party phenomena, and representation of speech signals. 
  Exchange Scholar Program
  The Mind Asleep
  Seminar in Social Psychology
@@ -2902,7 +2898,6 @@ first Century Literature
  Stories and Storytelling
  Literature and Knowledge
  Chinese Empire and Literature
-1911 CE) confrontation with the Chinese literature in representing China’s multilingual and multiethnic past. Texts include China’s most famous work of historical literature, Sima Qian’s Shiji; poems, short stories, tomb sculptures, contemporary film; as well as critical essays on empire, colonization, cultural heritage. 
  Altered Cinema: The Cultural Politics of Film Revision 
  Claims of Fiction 
  Getting Emotional: Passionate Theories 
@@ -2910,7 +2905,6 @@ first Century Literature
  Women's Words: Writing in Medieval Europe and Japan
  Introduction to Scandinavian Literature
  Inventing the Renaissance
-called "discovery of man," humanism and the recovery of the classical past, the production of scriptural identity or the "bibliographic ego," courtiership, the formation of the early modern state and the discovery of the "new world" through readings of major English and continental writers of the period. 
  Japanese Literature and Society: Historical Survey of Japanese Literature
  Latin America: The French Connection
 1968
@@ -3000,7 +2994,6 @@ Century England
  A Mirror for the Romantic: The Tale of Genji and The Story of the Stone
  Fantastic and Existentialist Literatures of Argentina, Uruguay and Brazil
  Fictions of the Caribbean
-presentation of the Caribbean countries, steering our explorations through postcolonial and postmodern theory to questions of appropriation, language and identity. Readings from Columbus and Shakespeare to Danticat, Santos Febres and Kincaid; essays by Glissant, James Benítez Rojo and others. 
  Masterworks of Chinese Fiction
  Modern Japanese Fiction
  Postcolonial Faulkner
@@ -3317,7 +3310,6 @@ Performance Servers
  Computational Methods for Biology
  Data Science
  Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet
-spirited geeks, and transitioned in the late 1990’s to a unique governance model in which nations, corporations, and civil society were supposed to all have a voice. Where are the real decisions being made? Who is making them? How can you and citizens of other nations influence these decisions? The global battle to run the Internet, brewing for years, has broken wide open with revelations of American spying on a massive scale. 
  Designing Humanity Centered Robots
  Computers, Freedom and Privacy: Current Topics in Law and Policy
  Optimization Methods in Finance
@@ -3775,7 +3767,6 @@ Cultural Perspectives on Child Development
  Ancient Egyptian Religion and Magic
  History of Egypt I
  History of Egypt II
-30 BC). Readings include translations from the original documents that serve as primary sources for the reconstruction of ancient Egyptian history. 
  History of Egypt III, Libyans, Nubians, and Persians in Egypt
 332 B.C.E.), from the end of the New Kingdom to Alexander's conquest. Characterized by internal conflict and long intervals of foreign domination, this era, is often described as a period of decline, but closer study shows it to be eventful and rich in documentation. Offered in alternate years. 
  Black Pharaohs: Nubian Rule over Egypt in the 25th Dynasty
@@ -4082,18 +4073,15 @@ Icelandic Language and Literature
  The Literature of the American South
  American Renaissance
  Why the Novel Happened
-century England and in more recent explanations of the novel's rise to dominance as a popular modern genre. How have changing ideas of truth, virtue, gender, money, politics, history, or the human subject interacted with the practices of narrative fiction? Writers to be considered include Behn, Haywood, Defoe, Richardson, Fielding, Sterne, Lewis, Watt, Lukacs, McKeon, and Bakhtin. 
  The Novel from Defoe to Austen
 Century Women Writers
 Century England and America
-American fiction of the 19th century. Criticism includes essays by Carlyle, Arnold, Benjamin, and McLuhan; literature includes fiction by Poe, Dickens, Melville, Stevenson, and James. 
 1909
  Inventing Race in America
 Century American Novel
 Raphaelites, Aesthetes, and Decadents
 Raphaelites and the erotic Raphaelitism between realism and fantasy, fact and symbol, body and spirit. 
  Swift and His Contemporaries
-heroics inventively transform genres while challenging "abuses" of learning, government, religion, colonialism, and even love. Other writers include Congreve, Manley, Addison, Steele, Montagu, Pope, and Gay. 
  Civil Rights and American Literature
  George Eliot
  The Early American Novel
@@ -4104,7 +4092,6 @@ for which the period is known. Includes novels by Mary Shelley, the Brontës, Di
  Lincoln, Whitman, and The Civil War
  Monsters, Giants, and Fantastic Landscapes
  Dickens and Others
-century England. Special attention given to the political, social, and philosophical significance of "others" in Dickens's writing and in related works from the period. In addition to a set of Dickens's novels, readings include selections from Mill, Arnold, Marx, Tennyson, Eliot, and others. 
  Literature of the American Renaissance
  Culture and Anarchy
 century British literature. Readings from Rousseau, Kant, Herder, Burke, Wordsworth, Percy Shelley, Carlyle, Thoreau, Emerson, Tennyson, Arnold, and George Eliot. 
@@ -4125,7 +4112,6 @@ century British literature. Readings from Rousseau, Kant, Herder, Burke, Wordswo
  Melville
  The Modern Self and Its Others
 Century American Imperialism
-in order to trace the connections between the internal colonialism of America in the nineteenth century and U.S. colonial ventures in the Caribbean, Asia, and Latin America. Writers to include Melville, Twain, Marti, Black Elk, Crane, Du Bois, and Roosevelt. 
  Romantic Orientalism
  The Victorian Novel
  Orientalism and the Place of Literature
@@ -4864,7 +4850,6 @@ Gardes
  Emergent literature: Postcolonial Nations and Cultural Identity
  Figures du roman français au XX siècle
  Le roman français au présent
-lyrical or essayistic, minimalist or baroque, centered upon female or male subjectivities, or simply bringing an echo of inner debates, lost legends and eternal quests. Novelists include Le Clézio, Sollers, Ernaux, Germain, Rio, Redonnet, Savitzkaya, Chevillard, and Mauvigner. Two short essays and a final paper. 
  Littérature, appartenance et identité
  Histoires d'animaux
  Les années folles: le roman français dans les années 20
@@ -4886,7 +4871,6 @@ Speaking Cultures
  Studies in Major French Writers
  Reading Proust at the Turn of the Century
  Altérités sexuelles, perversions littéraires
-19th century and which then exploded with the Decadent movement at the turn of the century. Also considers some medical texts that helped define the terms of sexual deviance. Authors include Baudelaire, Verlaine, Huysmans, Rachilde, Eekhoud, Zola, Vivien, Margueritte, Colette. 
  L'Orient littéraire
  Paris, ville des Lumières
  Penser la France et l'Europe
@@ -4953,7 +4937,6 @@ France: Je t'aime moi non plus
  Figures de l'étranger dans la littérature française
  Senior Seminar: L'Identité française
  French Feminisms
-feminisms, revolution and women's rights, utopian feminism, suffrage, psychoanalysis and other "new French feminisms," reproductive rights, la parité, Islamic and Muslim feminisms. Authors include: Christine de Pisan, Gournay, Poullain de la Barre, Gouges, Sand, Démar, Beauvoir, Irigaray, Wittig, Halimi, Amara. 
  La France en guerre
  Studies in Medieval French Literature
  Studies in French Literature of the Renaissance
@@ -4972,7 +4955,6 @@ century France? What role didla civilitéplay in the period's conceptions of the
  Corps et esprits libertins
  Studies in French Literature of the Eighteenth Century
  Bodies of Enlightenment
-century in its multiple guises: foreign and national; disciplined and idle; natural and mechanical; libertine and political. Readings in Prévost, Diderot, Rousseau, Boyer d'Argens, Sade. Critical essays by: Michel Foucault, Lynn Hunt, David Cottom, Dorinda Outram. 
  Foucault et les Lumières
  Le Roman libertin: approches critiques
 ce que les Lumières?
@@ -4983,7 +4965,6 @@ ce que les Lumières?
  Lyrisme et différence sexuelle
  Decadence
  Naturalisme et positivisme
-clericalism, Macquart: Histoire naturelle et sociale d'une famille sous le Second Empire, primary sources include texts by Maupassant, Comte, Taine, Littré, Durkheim. Secondary readings in the sociology of literature and cultural history. 
  Naturalisme et décadence
  Studies in French Literature of the Twentieth Century
  Littératures Francophones Contemporaines. Nations d'écrivains
@@ -4994,7 +4975,6 @@ clericalism, Macquart: Histoire naturelle et sociale d'une famille sous le Secon
  À quoi pense la littérature?
  Gender and Sexuality in Contemporary France
  Théories de la littérature
-called Social Sciences. The main goal of this seminar is to draw a map of the theoretical landscape which has affected the study and the teaching of modern French and Francophone literature during the past fifty years. 
  Théories du texte
  French Feminisms meet Queer Theory
  Modernity, Contemporaneity, Futurity
@@ -5339,30 +5319,25 @@ The German Novel from Goethe to Kafka
 Poems
  Seminars in German Literature
 Jewish Literature
-Jewish Jewish authors. Readings by Lessing, Mendelssohn, Heine, Kafka, Jurek Becker, and others. In English. 
  Die Berliner Republik und die Vergangenheit
  National Socialism and the Shoah in Recent German Prose
  20 Years After: The End of GDR and German Reunification
  Love and Death
  Images of America in German Literature
-What was, has been, and is America to Germans? Some believe America to be moving in the right direction, and others imagine America as thoroughly evil from the very beginning. Literature, however, does not say this images. By examining some canonical texts on this topic, the seminar reconstructs the major perceptions, attributions and ascriptions with which German authors over times have envisioned the United States – even without travelling there. 
  German Film
  German National Cinema from 1917 to 1989, and Cold War Germanys in Film
-Examines three phases of German national cinema in competition with Hollywood's early dominance of film production, from the founding of the UFA in 1917 through National Socialist Cinema, the "New German Cinema," and 1989, a mythical Germany cast as the locus of "world evil." Weekly screenings. In English. 
  Studies in German Culture
  Berlin: A City Strives to Reinvent Itself
  German Culture in the Nazi Era
  After Hitler: German Culture and Politics, 1945 to Present
  Kafka
  Literature and Other Media
-century visual media. Readings by Brecht, Benjamin, Adorno, Enzensberger, Kittler, Hörisch and others. In English. 
  Thinking After Philosophy
  German Jews and Capitalist Markets in the Long Nineteenth Century
  Having Beethoven Over in 1970
  Freud
  Mord und Medien. Krimis im intermedialen Vergleich
  Germans/Jews, Deutsche 
-Semitism and the official taboo on Jewish Germans today remains one of mutual nonunderstanding and distrust. Texts by Lessing, Mendelssohn, Heine, Kafka, and others. In English 
  What was Socialism? From Marx to "Goodbye Lenin"
  Nietzsche
  Early German Film and Film Theory
@@ -5393,9 +5368,7 @@ Semitism and the official taboo on Jewish Germans today remains one of mutual no
  Studies in German Culture: The Modern Period
 first centuries. In German or English. 
 1989
-histoire. Authors to be discussed include Botho Strauss, Elfriede Jelinek, Thomas Bernhard, W.G. Sebald, among others. In German. 
  Poetik der AutorInnen
-speaking countries have instituted since 1959. These lectures have featured  from poetic practices and aesthetic theories to biographic considerations and the technicalities of writing literature in today's world. In German. 
  German Modernism
 Romanticism and Symbolism 
  Exchange Scholar Program
@@ -5410,7 +5383,6 @@ Romanticism and Symbolism
  Reading 
  Historicism, Photography, Film
  Torture in European Literature and Aesthetic Theory
-Alongside the history of actual torture runs the history of representations of torture. Throughout the centuries, literature has worked through many of torture’s manifestations. Texts range from the biblical scenes of crucifixion and punishment to modern forms of torture. Writers like E.T.A. Hoffmann, Mirbeau, Kafka, Améry and Sartre have reflected on torture. And aesthetic theory has taken various stances towards the depiction 18th century until today. 
  From Hegel to Nietzsche: Literature as/and Philosophy
  The Essay: Theory and Praxis
  Freud and Lacan 
@@ -5445,7 +5417,6 @@ Century Architecture
  Architecture of the House Through Space and Time
  Contemporary Photography
 based imagery by Pop Art, conceptual art, minimalism, and eventually Postmodernism. 
-800 CE
  Roman Art and Architecture: From Julius Caesar to Hadrian
  Early Christian, Jewish, and Byzantine Art and Architecture
  Gothic Art and Architecture
@@ -5481,15 +5452,12 @@ made environments, artifacts and buildings. Second, it is the ability to transmi
  Introduction to Architectural Design
  Otherworldly and Other Worlds: Representing the Unseen in Early Modern Europe
 Modern Architecture
-1700
-1600
  Topics in Early Modern Art and Architecture
  El Greco and Velazquez
  El Greco and the Golden Age of Spanish Painting
  Topics in American Art
 Century American Painting
  American Art: The Twentieth Century
--Georgia O'Keeffe, Frank ranging consideration of art historical methods of interpretation. 
  Prefabrication and Architecture
  Ancient Art in the RISD Collection
  Pompeii
@@ -5506,7 +5474,6 @@ Columbian Art + Architecture
  Research Seminar Gothic Art
  Topics in Islamic Art
  Topics in Islamic Art: Islamic Art and Architecture on the Indian Subcontinent
-1650
  Topics in Medieval Visual Culture
  The Visual Culture of Medieval Women
  Topics in Medieval Architecture
@@ -5524,9 +5491,7 @@ Columbian Art + Architecture
  Renaissance Venice and the Veneto
  Siena from Simone Martini to Beccafumi
  The Arts of Renaissance Courts
- 1800
  Topics in Renaissance Architecture
-Century Art
  Bosch and Bruegel: Art Turns the World Upside Down
  Caravaggio
  Italian Baroque Painting and Sculpture
@@ -5535,27 +5500,18 @@ Century Art
  Antwerp: Art and Urban History
  Art + Religion in Early Modern Europe
  Comedy in Netherlandish Art From Hieronymus Bosch to Jan Steen
-1800
  Rembrandt
-Century Art
-1800
-1815
-1815
  Souvenirs: Remembering the Pleasures and Perils of the Grand Tour
-Century Architecture
  Black and White: Imagining Africans and African Americans in Visual Culture
  Topics in 19th Century Art
  Architecture and Visual Culture of Empire
-Century Architecture
  Frank Lloyd Wright
  Film Architecture
  Architecture, Light and Urban Screens
-2000
  Berlin: Architecture, Politics and Memory
  Cannibalism, Inversion, and Hybridity: Creative Disobedience in the Americas
  SoCal: Art in Los Angeles, 1945 to the Present
  Topics in Contemporary Art
-Present
  Contemporary Art of Africa and the Diaspora
  Project Seminar for Architectural Studies Concentrators
  Providence Architecture
@@ -5571,7 +5527,6 @@ Present
  Allegories/Symbols in Roman Art, Origins in Hellenistic Art, Augmentation in Early Christian Art
  The Visual Culture of Medieval Women
  Representing the Past: Archaeology Through Image and Text
-The archaeological past exists for us through intermediaries that may be written or visual. Drawings, descriptions, photographs, graphs, charts and computer visualizations all display a considered image of the past. presented the archaeological past of a range of cultures. 
  The Afterlife of Antiquity
  Research Seminar in Medieval Architecture
  Recent Approaches to the Gothic Cathedral
@@ -5584,20 +5539,13 @@ The archaeological past exists for us through intermediaries that may be written
  Print Culture in Early Modern Europe
  Illustrating Knowledge in Early Modern Europe
  The Theater that was Rome
-1600
  The Visual Cultures of Southern Italy
  Art and Charity in the Renaissance
  Research Seminar in Early Modern Art and Architecture
-Century Art
  Flemish Art
  Rubens
-1794
  Jesuit Global Strategies in Art and Conversion
-Century Art
 Atlantic Exchange in the Long Eighteenth Century
-Century Architecture
-Century Visual Culture
-Century Painting
  Paris in the 1860s
 Century European Painting
 Century Architecture
@@ -5631,7 +5579,6 @@ Basic Spanish
  Topics in Hispanic Culture and Civilization
  The Latin American Diaspora in the US
  Love and War in Medieval and Contemporary Spanish Fiction
-1985
  Wildeyed Stories
  Spanish Cinema and Literature: The Postmodern Cinema of Pedro Almodovar
  The Spanish Civil War: Image, Text, and Memory
@@ -5651,7 +5598,6 @@ Spanish Literature and Culture
  Madrid: History, Literature, and Culture
  Hispanic Culture Through Film
  Studies in the Nineteenth Century
-Century Spanish Novel
  Literature of the Spanish Twentieth Century
  Art and Literature
  Crime and Detection in Modern Spanish Fiction
@@ -5659,7 +5605,6 @@ Century Spanish Novel
  Generación del '98
  Spain on Screen: 80 Years of Spanish Cinema
  The Spanish Novel since 1975
-1936
  The Spanish Civil War in Visual Culture
  Studies in Spanish American Literature
  Bodies of Resistance
@@ -5730,7 +5675,6 @@ Century Spanish Literature
  The Eighteenth Century: Neoclassicism and the Enlightenment
  The Letter of the Law: Crime and Culture in Modern and Contemporary Spain
  Studies in Spanish American Literature
-1950
  La nueva novela de América Latina
 Century Latin American Prose
  Novela latinomericana contemporánea
@@ -5744,7 +5688,6 @@ Century Latin American Prose
  Under the Sun: Reading the Tropics in Latin American Literature
  Exchange Scholar Program
  Seminar: Spanish American Literature
-americano
  La Ciudad Modernista
  La cultura escolástica Y el debate sobre el indio americano en el encuentro transatlántico
  La Vision Transatlantica en las Cronicas Indigenas y Mestizas de los Siglos Dieciseis y Diecisiete
@@ -5969,7 +5912,6 @@ XX Centuries)
  Charlemagne: Conquest, Empire, and the Making of the Middle Ages
  Sex, Power, and God: A Medieval Perspective
  Age of Impostors: Fraud, Identification, and the Self in Early Modern Europe
-Alchemists claiming to possess the philosophers' stone; basilisks for sale in the market; Jews pretending to be Catholics; women dressing as men: early modern Europe appeared to be an age of impostors. Officials responded to this perceived threat by hiring experts and creating courts, licenses, passports, and other methods of surveillance in an era before reliable documentation, photography, DNA. And yet one person's fraud fashioning, and purported fraud, efforts to identify and stem deception, and debates about what was at stake when people and things were not what they seemed. P 
  The Enchanted World: Magic, Angels, and Demons in Early Modern Europe
  Women in Early Modern England
  The English Revolution
@@ -5978,9 +5920,7 @@ Alchemists claiming to possess the philosophers' stone; basilisks for sale in th
  Slavery in the Early Modern World
 Century Paris
 Siècle Paris and Vienna
-Hungary and France were forced to reckon with declining status as great powers, made Semitism siècle urban life but also explore some of the works and problems animating the intellectual life of the twentieth century. 
  Stalinism
-1950s as well as debates among historians about how to interpret those events? 
  The USSR and the Cold War
  Appetite for Greatness: Cuisine, Power, and the French
  Double Fault! Race and Gender in Modern Sports History
@@ -6129,7 +6069,6 @@ century U.S. history. M
  Environmental History
  The Politics of Knowledge
  Theory From The South
-European postcolonial world. While this category is embedded in histories of empire and culture, critical thinking since the 1970s has already done much to “provincialize Europe” and interrogate the ways in which power and knowledge have been imbricated in the making of universal claims, institutional processes and colonial thought and postcolonial critique to relocate and rethink the "south" as a generative source for theory and history. 
  Digital History
  Moral Panic and the Politics of Fear
  Making Choices: Ethics at the Frontier of Global Science 
@@ -6217,7 +6156,6 @@ Urdu
  The US and the Global Political Economy
  Global Security After the Cold War
  History and Theory of International Relations
-Examines the struggles of power and knowledge which have constituted international relations history and theory. This survey stretches from the beginnings of the Western states system and its early exemplar thinkers classical' theories of international relations. 
  Contemporary Global Politics
  Religion and Global Politics
 Making
@@ -6373,7 +6311,6 @@ known Italian writers
  Problems and Figures from 1860 to the Present
  Reading Recent Italian Fiction
  Letteratura Italiana del Novecento
-In questo seminario, leggeremo e discuteremo alcune delle più significative opere di narrativa e poesia novecentesca, da Svevo a Calvino e da Montale a Zanzotto, sullo sfondo delle grandi transformazioni della modernismo. Taught in Italian. 
  New Perspectives on Fascism
  Seminar in Italian Literature, Culture, and Criticism
  Exchange Scholar Program
@@ -6542,7 +6479,6 @@ Present
  Vertical Civilization: South American Archaeology from Monte Verde to the Inkas 
  Selected Topics in Latin American Studies
  Environment and Development in Latin America
-based development. The approach is critically used to survey the development of extractive industries and other environmental issues in Latin America. 
 national units). 
  Ethnicity and the Politics of Development in Latin America
  Popular Music and Social Change in Latin America
@@ -6603,7 +6539,6 @@ Present
  Augustine, Confessions
  Caesar: Bellum Gallicum
  Civil War Literature
-48 B.C.E.: Caesar's Civil War, Cicero's letters of the time, Cicero's Caesarian orations, and selections from Suetonius and Lucan. Additional readings in translation. 
  Comedy
  Fortunatus
 ) erotic pieces written to the poet's friends. 
@@ -6625,7 +6560,6 @@ Present
  Selection from Later Latin Authors
  Literary Culture in the Latin Middle Ages
  Poetry at the End of the Roman World
-called fall of Rome. Focus on some masterworks of Silver Latinity as a bridge to our period. Sampling of literature from the 4th, 5th, and 6th centuries. Authors include Prudentius, Ausonius, Paulinus of Nola, Sidonius, Avitus, and Fortunatus. 
  Survey of Late and Medieval Latin
  Alcuin
  Writing Lives in Late Antiquity: Jerome and Augustine
@@ -6651,7 +6585,6 @@ called fall of Rome. Focus on some masterworks of Silver Latinity as a bridge to
  Seminar
  The Age of Augustus
  Augustine: Confessions
-constructing the readerly and writerly spaces Augustine inhabits, how those spaces impinge on his engagement of his sources, and what sort of readerly competencies the imply. 
  Seminar: Roman Literature
  Late Latin Literary Culture
  Lucan
@@ -6660,7 +6593,6 @@ constructing the readerly and writerly spaces Augustine inhabits, how those spac
  Latin in America
  Seminar: The Sixth Century
  Latin Atlantic Epic
-1780) which addressed themes particular to the discovery, conquest and colonisation of the New World. 
  Elegy
  Lucretius
  Ovid: Exile Poetry
@@ -6794,7 +6726,6 @@ Appropriation
  Seminars in Reading, Research, and Writing about Literature
  Poetry Newly in Translation in English
  Poetry, Mind, World
-Ponty, Hardy, Houle, Alexander, Dewdney, Hass, D'Aquino, Audubon and others. Presentation, several short essays, a poem, and one final essay. 
  Form and Theory of Fiction
  Writing, Reading City
  Master Poets of Apartheid Streets: Sterling Brown, Robert Hayden, Margaret Walker, Gwendolyn Brooks
@@ -7316,7 +7247,6 @@ hour listening session per week.
  Beethoven
  Jazz Masters
 Time Music
-class and regional identities, religious experience, gender, and rural values, with attention to commodification and the rise of the national country music industry. 
  Blues
  Musical Youth Cultures
  Contemplative Music of India
@@ -8102,10 +8032,8 @@ making of several countries. Includes an anlysis of education policy, health pol
  State and Local Government
  Public Organization and Management
  Global Graying: The Impact of an Aging Society on Public and Private Sector Organizations
-A “silver tsunami” is rolling across the globe. Governmental policy makers and business leaders are scrambling to adapt to a demographic phenomenon. A rapidly aging adult population combined with historically low - and threatens to unravel the social safety net established through governmental services like Social Security and Medicare. 
  Congressional Leadership, Parties and Public Policy
  Immigration: The Imaginaries of Race, Space, and Nation
-Immigration in the United States has been and continues to be about delineations of boundaries, of belonging. By definition, immigration delimits American national identity; however, it does so by defining it as a ness is a cultural identity, one that is explicitly descriptive about who belongs and who does not belong. 
 vis the history of immigration policy in the United States. 
  Policy Implementation
  Governance in the Academy: A University at Work in the 21st Century
@@ -8122,7 +8050,6 @@ Making
  Ethics of Energy Policy
  Environmental Law and Policy
  The Theory and Practice of Sustainable Investing
-21st century businesses and investors face a broadening and deepening array of Environmental, Social, and Governance and economic inequality pose present material challenges that make sustainability an imperative for successful corporations and investors. 
  Education, Inequality, and American Democracy 
  Investigating Modes of Social Change
  Engaged Research Engaged Publics
@@ -8352,7 +8279,6 @@ Marítima, Ramalho Ortigão, Raul Brandão, as well as the contemporary Pedro Ro
  Feminist Thoughts for a Heated Climate
  Federalism and Public Policy
  Latin American Politics
-oriented economic reforms and democratization that have swept the region during depth country case studies where key themes can be discussed and elaborated. 
 Soviet States
  Politics, Markets and States in Developing Countries
  The Politics of European Democracies
