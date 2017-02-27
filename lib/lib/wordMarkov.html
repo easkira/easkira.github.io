@@ -2,8 +2,8 @@
 <script src="../lib/markov.js"></script>
 <script>
 var txt;
-var markov = new MarkovGeneratorWord(2,200)
-$.get("serg.txt", function(text) {
+var markov = new MarkovGeneratorWord(2,50)
+$.get("doriangray.txt", function(text) {
      markov.feed(text);
 });
 
@@ -12,5 +12,5 @@ function generate(){
 	$('h1').text(t);
 }
 </script>
-<h1>Markov-generated text will go here</h1>
-<button onclick="generate()">Generate</button>
+<h1>drunken rambling from emmett and sergio, circa 2014</h1>
+<button onclick="generate()">lets gooooooo</button>
