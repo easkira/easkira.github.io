@@ -8,8 +8,10 @@ $.get("bcc.txt", function(text) {
 });
 function generate(){
 	var t = markov.generate()
+	t = t.split (" ").slice (0,-1).join(" ") 
 	$('h1').text(t);
 }
+
 </script>
 <h1>what will i take this semester</h1>
 <button onclick="generate()">let's let the computer decide...</button>
