@@ -1,0 +1,16 @@
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/markov.js"></script>
+<script>
+var txt;
+var markov = new MarkovGeneratorWord(2,50)
+$.get("doriangray.txt", function(text) {
+     markov.feed(text);
+});
+
+function generate(){
+	var t = markov.generate()
+	$('h1').text(t);
+}
+</script>
+<h1>1885/1985</h1>
+<button onclick="generate()" style="background:purple">purple on purple on purple</button>

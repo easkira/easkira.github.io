@@ -1,0 +1,15 @@
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/markov.js"></script>
+<script>
+var txt;
+var markov = new MarkovGenerator(8,35)
+$.get("bcc.txt", function(text) {
+     markov.feed(text);
+});
+function generate(){
+	var t = markov.generate()
+	$('h1').text(t);
+}
+</script>
+<h1>what will i take this semester</h1>
+<button onclick="generate()">let's let the computer decide...</button>
