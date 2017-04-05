@@ -11,9 +11,9 @@ html {
 </style>
 </style>
   <head>
-    <script src="lib/p5.min.js"></script>
-    <script src="lib/p5.play.js"></script>
-    <script src="lib/p5.sound.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.js"></script>
     <script src="jquery-1.11.1.min.js"></script>
 	<script src="mousetrap.min.js"></script>
    
@@ -152,7 +152,7 @@ function mousePressed(){
 }
 
 // this section is to play soundbites on keypress
-Mousetrap.bind("s", function(){
+/*Mousetrap.bind("s", function(){
 	playSound("zamn")
 })
 Mousetrap.bind("h", function(){
@@ -285,12 +285,13 @@ function playSound (id) {
     } else {
         sound.play()
     }
-}
+} */
 
 
 
 
-</script>
+/** there might need to be a </scrip> here (add the t, i cant)
+
 <audio id="zamn" src="zamn zaddy.mp3" preload="auto"></audio>
 <audio id="zaddy" src="zaddy.mp3" preload="auto"></audio>
 <audio id="wild" src="wild.mp3" preload="auto"></audio>
@@ -329,7 +330,7 @@ function playSound (id) {
 <audio id="incredible" src="incredible.mp3" preload="auto"></audio>
 <audio id="leave" src="leave.mp3" preload="auto"></audio>
 <audio id="at" src="at.mp3" preload="auto"></audio>
-
+*/
 
 
 </script>
