@@ -1,0 +1,343 @@
+
+<style>
+
+html { 
+  background: url(silback.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+</style>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.play.js"></script>
+    <script src="lib/p5.sound.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
+	<script src="mousetrap.min.js"></script>
+   
+<script>
+
+
+var thingTwo;
+var buttonImg;
+var spr;
+var clickShow;
+var babyCry;
+var volume = 1;
+var speed = 0;
+
+// this section has the pics and randomizes their selection 
+
+var pics = {"kitten": [
+    {"file": "1.jpg", "type":"0"},
+	{"file": "2.jpg", "type":"0"},
+	{"file": "3.jpg", "type":"0"},
+	{"file": "4.jpg", "type":"0"},
+	{"file": "5.jpg", "type":"0"},
+	{"file": "6.jpg", "type":"0"},
+	{"file": "7.jpg", "type":"0"},
+	{"file": "8.jpg", "type":"0"},
+	{"file": "9.jpg", "type":"0"},
+	{"file": "10.jpg", "type":"0"},
+	{"file": "11.jpg", "type":"0"},
+	{"file": "12.jpg", "type":"0"},
+	{"file": "13.jpg", "type":"0"},
+	{"file": "14.jpg", "type":"0"},
+	{"file": "15.jpg", "type":"0"},
+	{"file": "16.jpg", "type":"0"},
+	{"file": "17.jpg", "type":"0"},
+	{"file": "18.jpg", "type":"0"},
+	{"file": "19.jpg", "type":"0"},
+	{"file": "20.jpg", "type":"0"},
+	{"file": "21.jpg", "type":"0"},
+	{"file": "22.png", "type":"0"},
+	{"file": "23.jpg", "type":"0"},
+	{"file": "24.png", "type":"0"},
+	{"file": "25.jpg", "type":"0"},
+	{"file": "26.jpg", "type":"0"},
+	{"file": "27.jpg", "type":"0"},
+	{"file": "28.jpg", "type":"0"},
+	{"file": "29.jpg", "type":"0"},
+	{"file": "30.jpg", "type":"0"},
+	{"file": "31.jpg", "type":"0"},
+	{"file": "32.jpg", "type":"0"},
+	{"file": "33.jpg", "type":"0"},
+	{"file": "34.jpg", "type":"0"},
+	{"file": "35.png", "type":"0"},
+	{"file": "36.jpg", "type":"0"},
+	{"file": "37.jpg", "type":"0"},
+	{"file": "38.jpg", "type":"0"},
+	{"file": "39.png", "type":"0"},
+	{"file": "40.png", "type":"0"},
+	{"file": "41.png", "type":"0"},
+	{"file": "42.png", "type":"0"},
+	{"file": "43.jpg", "type":"0"},
+	{"file": "44.jpg", "type":"0"},
+	{"file": "45.jpg", "type":"0"},
+	{"file": "46.jpg", "type":"0"},
+	{"file": "47.jpg", "type":"0"},
+	{"file": "48.jpg", "type":"0"},
+	{"file": "49.jpg", "type":"0"},
+	{"file": "50.jpg", "type":"0"},
+	{"file": "51.jpg", "type":"0"},
+	{"file": "52.jpg", "type":"0"},
+	{"file": "53.gif", "type":"0"},
+	{"file": "54.png", "type":"0"},
+	{"file": "55.png", "type":"0"},
+	{"file": "56.jpg", "type":"0"},
+	{"file": "57.jpg", "Credit": "Mami Terai", "URL": "http://www.google.com", "type":"1"},
+	{"file": "58.jpg", "Credit": "Sam Scheibel", "URL": "http://www.google.com", "type":"1"}
+    ]
+};
+
+
+					
+			
+				
+// this section is pulled from the baby click thing and is meant to put the picture wherever it is clicked
+
+function setup() {
+	createCanvas(windowWidth,windowHeight);
+	textSize(36);
+	spr = createSprite(windowWidth/13, windowHeight/9);
+	spr.width = 10;
+	spr.height = 10;
+	spr.position.x = windowWidth/2;
+	spr.position.y = windowHeight/2;
+	spr.addAnimation("default", thingTwo);
+
+	clickShow = createSprite(windowWidth/random(3, 8), windowHeight/random(2, 3));
+	clickShow.addImage("buttonImage", buttonImg);
+	
+}
+
+function preload(){
+	var randk = Math.floor(Math.random() * 55) + 1
+					
+					thingTwo.src = 'https://easkira.github.io/midterm/'+pics.kitten[randk].file+'';
+					thingTwo.width = imgwidth;
+					thingTwo.height = imgheight;
+	
+
+	}
+
+function draw(){
+	background(0);
+	fill(1, 163, 176);
+	text(" ", windowWidth/5, windowHeight/5);
+	spr.width = 10;
+	spr.height = 10;
+	drawSprites();
+}
+
+function mousePressed(){
+	// if click sprite is first thing clicked
+	if (clickShow.mouseIsPressed){
+		//make invisible
+		clickShow.visible = false;
+	}
+	// if click sprite is not first thing clicked
+	if(clickShow.visible == true){
+		//make invisible
+		clickShow.visible = false;
+	}
+	//make new sprite at mouse position
+  var newSprite;
+  newSprite = createSprite(width/20, height/20);
+  newSprite.position.x = mouseX;
+  newSprite.position.y = mouseY;
+ 
+}
+
+// this section is to play soundbites on keypress
+Mousetrap.bind("s", function(){
+	playSound("zamn")
+})
+Mousetrap.bind("h", function(){
+	playSound("zaddy")
+})
+Mousetrap.bind("e", function(){
+	playSound("wild")
+})
+Mousetrap.bind("q", function(){
+	playSound("content")
+})
+Mousetrap.bind("w", function(){
+	playSound("elijah")
+})
+Mousetrap.bind("r", function(){
+	playSound("rip")
+})
+Mousetrap.bind("t", function(){
+    playSound("lie")
+})
+Mousetrap.bind("y", function(){
+    playSound("alive")
+})
+Mousetrap.bind("u", function(){
+    playSound("homophobic")
+})
+Mousetrap.bind("i", function(){
+    playSound("upsetting")
+})
+Mousetrap.bind("o", function(){
+    playSound("like")
+})
+Mousetrap.bind("l", function(){
+    playSound("snapping")
+})
+Mousetrap.bind("a", function(){
+    playSound("ayy")
+})
+Mousetrap.bind("d", function(){
+    playSound("discourse")
+})
+Mousetrap.bind("f", function(){
+    playSound("fuck")
+})
+Mousetrap.bind("g", function(){
+    playSound("much")
+})
+Mousetrap.bind("p", function(){
+    playSound("fake")
+})
+Mousetrap.bind("j", function(){
+    playSound("think")
+})
+Mousetrap.bind("k", function(){
+    playSound("420")
+})
+Mousetrap.bind("z", function(){
+    playSound("she")
+})
+Mousetrap.bind("x", function(){
+    playSound("fuckmeup")
+})
+Mousetrap.bind("c", function(){
+    playSound("ally")
+})
+Mousetrap.bind("v", function(){
+    playSound("same")
+})
+Mousetrap.bind("b", function(){
+    playSound("funny")
+})
+Mousetrap.bind("n", function(){
+    playSound("hateit")
+})
+Mousetrap.bind("m", function(){
+    playSound("call")
+})
+Mousetrap.bind("1", function(){
+    playSound("fuck")
+})
+Mousetrap.bind("8", function(){
+    playSound("spider")
+})
+Mousetrap.bind("2", function(){
+    playSound("at")
+})
+Mousetrap.bind("3", function(){
+    playSound("loving")
+})
+Mousetrap.bind("4", function(){
+    playSound("bong")
+})
+Mousetrap.bind("5", function(){
+    playSound("getit")
+})
+Mousetrap.bind("6", function(){
+    playSound("concept")
+})
+Mousetrap.bind("7", function(){
+    playSound("leave")
+})
+Mousetrap.bind("9", function(){
+    playSound("incredible")
+})
+Mousetrap.bind("0", function(){
+    playSound("elijah")
+})
+
+
+
+Mousetrap.bind("enter", function(){
+	setBgImage('wink.gif')
+})
+
+Mousetrap.bind("space", function(){
+	setBgColor('green')
+	setTextColor('black')
+})
+Mousetrap.bind("backspace", function(){
+	$('h1').remove()
+})
+
+
+
+function playSound (id) {
+    sound = $("#" + id)[0]
+    if (sound.ended){sound.currentTime = 0};
+    if (sound.currentTime > 0){
+        sound.currentTime = 0
+    } else {
+        sound.play()
+    }
+}
+
+
+
+
+</script>
+<audio id="zamn" src="zamn zaddy.mp3" preload="auto"></audio>
+<audio id="zaddy" src="zaddy.mp3" preload="auto"></audio>
+<audio id="wild" src="wild.mp3" preload="auto"></audio>
+<audio id="lie" src="wheres the lie.mp3" preload="auto"></audio>
+<audio id="alive" src="what a time to be alive.mp3" preload="auto"></audio>
+<audio id="concept" src="what a concept.mp3" preload="auto"></audio>
+<audio id="getit" src="we get it.mp3" preload="auto"></audio>
+<audio id="much" src="this is so much.mp3" preload="auto"></audio>
+<audio id="discourse" src="the discourse.mp3" preload="auto"></audio>
+<audio id="upsetting" src="thats upsetting (real).mp3" preload="auto"></audio>
+<audio id="homophobic" src="thats homophobic.mp3" preload="auto"></audio>
+<audio id="spider" src="spider.mp3" preload="auto"></audio>
+<audio id="fake" src="sounds fake but ok.mp3" preload="auto"></audio>
+<audio id="snapping" src="snapping.mp3" preload="auto"></audio>
+<audio id="elijah" src="SCREAMING.mp3" preload="auto"></audio>
+<audio id="rip" src="rip.mp3" preload="auto"></audio>
+<audio id="think" src="really makes you think.mp3" preload="auto"></audio>
+<audio id="420" src="oh shit its 420.mp3" preload="auto"></audio>
+<audio id="loving" src="loving that concept.mp3" preload="auto"></audio>
+<audio id="bong" src="literal bong.mp3" preload="auto"></audio>
+<audio id="fuckmeup" src="just fuck me up.mp3" preload="auto"></audio>
+<audio id="incredible" src="incredible.mp3" preload="auto"></audio>
+<audio id="same" src="i mean same- daniel.mp3" preload="auto"></audio>
+<audio id="funny" src="i just think its funny how.mp3" preload="auto"></audio>
+<audio id="hateit" src="i hate that (real).mp3" preload="auto"></audio>
+<audio id="content" src="grade a content.mp3" preload="auto"></audio>
+<audio id="fuck" src="fuck.mp3" preload="auto"></audio>
+<audio id="fisting" src="fisting.mp3" preload="auto"></audio>
+<audio id="call" src="calloutpost.mp3" preload="auto"></audio>
+<audio id="ayy" src="ayy.mp3" preload="auto"></audio>
+<audio id="ally" src="ally is a verb.mp3" preload="auto"></audio>
+<audio id="minute" src="a good minute.mp3" preload="auto"></audio>
+<audio id="she" src="she.mp3" preload="auto"></audio>
+<audio id="like" src="like.mp3" preload="auto"></audio>
+<audio id="drag" src="dragged.mp3" preload="auto"></audio>
+<audio id="incredible" src="incredible.mp3" preload="auto"></audio>
+<audio id="leave" src="leave.mp3" preload="auto"></audio>
+<audio id="at" src="at.mp3" preload="auto"></audio>
+
+
+
+</script>
+  </head>
+  <body style="margin: 0px">
+  </body>
+</html>
+
+
+
+
