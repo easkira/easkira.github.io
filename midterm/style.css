@@ -1,0 +1,13 @@
+/* Make it a marquee */
+@font-face {
+    font-family: "actup";
+    src: url(actup.ttf) format("truetype");
+}
+
+
+.marky {
+
+    z-index: 1000;
+    color: white;
+}
+
