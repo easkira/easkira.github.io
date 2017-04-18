@@ -106,19 +106,19 @@ function setup() {
 	spr.height = 10;
 	spr.position.x = windowWidth/2;
 	spr.position.y = windowHeight/2;
-	spr.addAnimation("default", thingTwo);
 
 	clickShow = createSprite(windowWidth/random(3, 8), windowHeight/random(2, 3));
-	clickShow.addImage("buttonImage", buttonImg);
+	
 	
 }
 
 function preload(){
 	var randk = Math.floor(Math.random() * 55) + 1
 					
-					thingTwo.src = 'https://easkira.github.io/midterm/'+pics.kitten[randk].file+'';
-					thingTwo.width = imgwidth;
-					thingTwo.height = imgheight;
+					thingTwo = 'https://easkira.github.io/midterm/'+pics.kitten[randk].file+'';
+					
+
+					
 	
 
 	}
@@ -133,12 +133,12 @@ function draw(){
 }
 
 function mousePressed(){
-	// if click sprite is first thing clicked
+	 //if click sprite is first thing clicked
 	if (clickShow.mouseIsPressed){
-		//make invisible
+		//make invisible 
 		clickShow.visible = false;
-	}
-	// if click sprite is not first thing clicked
+	} 
+	 if click sprite is not first thing clicked
 	if(clickShow.visible == true){
 		//make invisible
 		clickShow.visible = false;

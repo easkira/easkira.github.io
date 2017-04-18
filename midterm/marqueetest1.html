@@ -1,0 +1,252 @@
+<html>
+<style>
+@font-face {
+    font-family: "actup";
+    src: url(actup.ttf) format("truetype");
+html { 
+  background: url(silback.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="marquee.js"></script>
+
+
+<style type="text/css">
+#scroll{
+         position : absolute;
+      white-space : nowrap;
+              top : 0px;
+             left : 200px;
+             font-family: actup;
+             font-size: 2em;
+       }
+#oScroll{
+	   margin : 0px;
+	  padding : 0px;
+         position : relative;
+            width : 1000px;
+           height : 20px;
+         overflow : hidden;
+        }
+      </style>
+      <script type="text/javascript">
+     function scroll(oid,iid){
+          this.oCont=document.getElementById(oid)
+          this.ele=document.getElementById(iid)
+          this.width=this.ele.clientWidth;
+          this.n=this.oCont.clientWidth;
+          this.move=function(){
+             this.ele.style.left=this.n+"px"
+             this.n--
+             if(this.n<(-this.width)){this.n=this.oCont.clientWidth}
+                              }
+                             }
+     var vScroll
+     function setup(){
+         vScroll=new scroll("oScroll","scroll");
+         setInterval("vScroll.move()",20)
+                     }
+  onload=function(){setup()}
+      </script>
+
+
+   
+<script>
+
+
+var thingTwo;
+var buttonImg;
+var spr;
+var clickShow;
+var babyCry;
+var volume = 1;
+var speed = 0;
+var pics = {"kitten": [
+    {"file": "1.png", "type":"0"},
+	{"file": "2.png", "type":"0"},
+	{"file": "3.png", "type":"0"},
+	{"file": "4.png", "type":"0"},
+	{"file": "5.png", "type":"0"},
+	{"file": "6.png", "type":"0"},
+	{"file": "7.png", "type":"0"},
+	{"file": "8.png", "type":"0"},
+	{"file": "9.png", "type":"0"},
+	{"file": "10.png", "type":"0"},
+	{"file": "11.png", "type":"0"},
+	{"file": "12.png", "type":"0"},
+	{"file": "13.png", "type":"0"},
+	{"file": "14.png", "type":"0"},
+	{"file": "15.png", "type":"0"},
+	{"file": "16.png", "type":"0"},
+	{"file": "17.png", "type":"0"},
+	{"file": "18.png", "type":"0"},
+	{"file": "19.png", "type":"0"},
+	{"file": "20.png", "type":"0"},
+	{"file": "21.png", "type":"0"},
+	{"file": "22.png", "type":"0"},
+	{"file": "23.png", "type":"0"},
+	{"file": "24.png", "type":"0"},
+	{"file": "25.png", "type":"0"},
+	{"file": "26.png", "type":"0"},
+	{"file": "27.png", "type":"0"},
+	{"file": "28.png", "type":"0"},
+	{"file": "29.png", "type":"0"},
+	{"file": "30.png", "type":"0"},
+	{"file": "31.png", "type":"0"},
+	{"file": "32.png", "type":"0"},
+	{"file": "33.png", "type":"0"},
+	{"file": "34.png", "type":"0"},
+	{"file": "35.png", "type":"0"},
+	{"file": "36.png", "type":"0"},
+	{"file": "37.png", "type":"0"},
+	{"file": "38.png", "type":"0"},
+	{"file": "39.png", "type":"0"},
+	{"file": "40.png", "type":"0"},
+	{"file": "41.png", "type":"0"},
+	{"file": "42.png", "type":"0"},
+	{"file": "43.png", "type":"0"},
+	{"file": "44.png", "type":"0"},
+	{"file": "45.png", "type":"0"},
+	{"file": "46.png", "type":"0"},
+	{"file": "47.png", "type":"0"},
+	{"file": "48.png", "type":"0"},
+	{"file": "49.png", "type":"0"},
+	{"file": "50.png", "type":"0"},
+	{"file": "51.png", "type":"0"},
+	{"file": "52.png", "type":"0"},
+	{"file": "53.png", "type":"0"},
+	{"file": "54.png", "type":"0"},
+	{"file": "55.png", "type":"0"},
+	{"file": "56.png", "Credit": "Mami Terai", "URL": "http://www.google.com", "type":"1"},
+	{"file": "57.png", "Credit": "Sam Scheibel", "URL": "http://www.google.com", "type":"1"}
+    ]
+};
+
+function preload(){
+	var randk = Math.floor(Math.random() * 54) + 1
+		thingTwo = loadImage('https://easkira.github.io/midterm/png/'+pics.kitten[randk].file+'');
+	babyCry = loadSound("https://easkira.github.io/midterm/SCREAMING.mp3");
+	buttonImg = loadImage("https://easkira.github.io/midterm/grad.png");
+}
+
+function setup() {
+	createCanvas(windowWidth,windowHeight);
+	textSize(36);
+	spr = createSprite(windowWidth/13, windowHeight/9);
+	spr.width = 10;
+	spr.height = 10;
+	spr.position.x = windowWidth*5;
+	spr.position.y = windowHeight*5;
+	spr.addAnimation("default", thingTwo);
+
+	clickShow = createSprite(windowWidth/random(5, 5), windowHeight/random(2, 2));
+	clickShow.addImage("buttonImage", buttonImg);
+	//babyCry.play();
+}
+
+function draw(){
+	/*
+	background(0);
+	fill(1, 163, 176);
+	text("And in that moment, I swear we were infinite...", windowWidth/5, windowHeight/5);*/
+	spr.width = 10;
+	spr.height = 10;
+	drawSprites();
+}
+
+function mousePressed(){
+	// if click sprite is first thing clicked
+	if (clickShow.mouseIsPressed){
+		//make invisible
+		clickShow.visible = false;
+	}
+	// if click sprite is not first thing clicked
+	if(clickShow.visible == true){
+		//make invisible
+		clickShow.visible = false;
+	}
+	//make new sprite at mouse position
+  var newSprite;
+  newSprite = createSprite(width/20, height/20);
+  newSprite.addAnimation("default", thingTwo);
+  newSprite.position.x = mouseX;
+  newSprite.position.y = mouseY;
+  //volume = volume - 3;
+  speed = speed + .25;
+  //babyCry.amp(volume);
+  //babyCry.rate(speed);
+  var randk = Math.floor(Math.random() * 55) + 1
+  thingTwo = loadImage('https://easkira.github.io/midterm/png/'+pics.kitten[randk].file+'');
+}
+
+
+
+
+</script>
+  </head>
+ 
+  <!--<body style="margin: 0px">
+ <div id="m1" class="marquee"><span>October 15, 1982 "What's AIDS?" "It's known as the gay plague" Everyone laughs. "I don't have it, 
+do you?" laughter erupts again -Reagan's Press Secretary, Larry Speakes</span></div>
+ <div id="m2" class="marquee"><span>"AIDS is the wrath of God upon homosexuals" Jerry Falwell</span></div>
+
+  </body>-->
+  <body>
+  	<div id="oScroll">
+        <div id="scroll">October 15, 1982 "What's AIDS?" "It's known as the gay plague" Everyone laughs. "I don't have it, 
+do you?" laughter erupts again -Reagan's Press Secretary, Larry Speakes</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">"AIDS is the wrath of God upon homosexuals" -Jerry Falwell
+</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">
+ACT UP! FIGHT BACK! FIGHT AIDS!</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">BAYER MEMORANDUM JANUARY 1983: "There is strong evidence to suggest that AIDS is passed 
+on to other people through plasma products." PUSHED TAINTED PRODUCT TO ASIA AND LATIN AMERICA
+UNTIL 1985 RESULTS IN THOUSANDS OF DEATHS.</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">
+RUDY BABY, DON'T YOU SEE YOUR BUDGET CUTS ARE KILLING ME? GIULIANI: NO MORE LIES! DON'T BALANCE THE BUDGET WITH OUR LIVES!</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">freddie mercury eazy-e angie xtravaganza isaac asimov michel foucault liberace peter allen
+keith haring howard ashman angel may vito russo alvin ailey</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">658,507 deaths from AIDS in the United States-- WHERE IS THE MEMORY OF THE PLAGUE</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">"deliberate, disgusting, revolting conduct." SENATOR JESSE HELMS FOUGHT THE RYAN WHITE ACT</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">SURGEON GENERAL C EVERETT KOOP MAILED AIDS INFORMATION PAMPHLET TO ALL AMERICAN HOUSEHOLDS 
+OVER REAGAN ADMINISTRATION'S OPPOSITION</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">
+HISTORY WILL RECALL: GEORGE BUSH DID NOTHING AT ALL!</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">"existing budget and approppriations processes are effective in funding these [AIDS] activities"
+ED BRANDT, ASSISTANT HHS SECRETARY. PRIVATELY NOTED NEED FOR NEW FUNDING</div>
+    </div>
+    <div id="oScroll">
+        <div id="scroll">rudolf nureyev robert mapplethorpe 
+ marlon riggs randy shilts willi ninja bill sherwood sylvester gil scott-heron 
+dorian corey gia carangi robert rafsky</div>
+    </div>
+   
+</html>

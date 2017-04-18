@@ -1,0 +1,229 @@
+<html>
+<style>
+html { 
+  background: url(silback.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.js"></script>
+
+
+
+   
+<script>
+
+
+var thingTwo;
+var buttonImg;
+var spr;
+var clickShow;
+var babyCry;
+var volume = 1;
+var speed = 0;
+var pics = {"kitten": [
+    {"file": "1.png", "type":"0"},
+	{"file": "2.png", "type":"0"},
+	{"file": "3.png", "type":"0"},
+	{"file": "4.png", "type":"0"},
+	{"file": "5.png", "type":"0"},
+	{"file": "6.png", "type":"0"},
+	{"file": "7.png", "type":"0"},
+	{"file": "8.png", "type":"0"},
+	{"file": "9.png", "type":"0"},
+	{"file": "10.png", "type":"0"},
+	{"file": "11.png", "type":"0"},
+	{"file": "12.png", "type":"0"},
+	{"file": "13.png", "type":"0"},
+	{"file": "14.png", "type":"0"},
+	{"file": "15.png", "type":"0"},
+	{"file": "16.png", "type":"0"},
+	{"file": "17.png", "type":"0"},
+	{"file": "18.png", "type":"0"},
+	{"file": "19.png", "type":"0"},
+	{"file": "20.png", "type":"0"},
+	{"file": "21.png", "type":"0"},
+	{"file": "22.png", "type":"0"},
+	{"file": "23.png", "type":"0"},
+	{"file": "24.png", "type":"0"},
+	{"file": "25.png", "type":"0"},
+	{"file": "26.png", "type":"0"},
+	{"file": "27.png", "type":"0"},
+	{"file": "28.png", "type":"0"},
+	{"file": "29.png", "type":"0"},
+	{"file": "30.png", "type":"0"},
+	{"file": "31.png", "type":"0"},
+	{"file": "32.png", "type":"0"},
+	{"file": "33.png", "type":"0"},
+	{"file": "34.png", "type":"0"},
+	{"file": "35.png", "type":"0"},
+	{"file": "36.png", "type":"0"},
+	{"file": "37.png", "type":"0"},
+	{"file": "38.png", "type":"0"},
+	{"file": "39.png", "type":"0"},
+	{"file": "40.png", "type":"0"},
+	{"file": "41.png", "type":"0"},
+	{"file": "42.png", "type":"0"},
+	{"file": "43.png", "type":"0"},
+	{"file": "44.png", "type":"0"},
+	{"file": "45.png", "type":"0"},
+	{"file": "46.png", "type":"0"},
+	{"file": "47.png", "type":"0"},
+	{"file": "48.png", "type":"0"},
+	{"file": "49.png", "type":"0"},
+	{"file": "50.png", "type":"0"},
+	{"file": "51.png", "type":"0"},
+	{"file": "52.png", "type":"0"},
+	{"file": "53.png", "type":"0"},
+	{"file": "54.png", "type":"0"},
+	{"file": "55.png", "type":"0"},
+	{"file": "56.png", "Credit": "Mami Terai", "URL": "http://www.google.com", "type":"1"},
+	{"file": "57.png", "Credit": "Sam Scheibel", "URL": "http://www.google.com", "type":"1"}
+    ]
+};
+
+var actup;
+var bg;
+function preload() {
+  actup = loadFont("actup.ttf");
+  
+}
+
+function preload(){
+	var randk = Math.floor(Math.random() * 54) + 1
+		thingTwo = loadImage('https://easkira.github.io/midterm/png/'+pics.kitten[randk].file+'');
+	babyCry = loadSound("https://easkira.github.io/midterm/SCREAMING.mp3");
+	buttonImg = loadImage("https://easkira.github.io/midterm/grad.png");
+	bg = loadImage('https://easkira.github.io/silback.jpg');
+	x=700;
+	a=500;
+	b=2000;
+	c=900;
+	d=100;
+	e=1200;
+	f=3000;
+}
+
+function setup() {
+	createCanvas(windowWidth,windowHeight);
+	textSize(36);
+	spr = createSprite(windowWidth/13, windowHeight/9);
+	spr.width = 10;
+	spr.height = 10;
+	spr.position.x = windowWidth*5;
+	spr.position.y = windowHeight*5;
+	spr.addAnimation("default", thingTwo);
+
+	clickShow = createSprite(windowWidth/random(5, 5), windowHeight/random(2, 2));
+	clickShow.addImage("buttonImage", buttonImg);
+
+	//babyCry.play();
+}
+
+function draw(){
+	background(bg);
+	textSize(60);
+	textFont("actup");
+	fill(300, 300, 300)
+text("ACT UP! FIGHT BACK! FIGHT AIDS!", x, 75);
+textSize(32);
+text('October 15, 1982: "What\'s AIDS?" "It\'s known as the gay plague" Everyone laughs. "I don\'t have it, do you?" laughter erupts again. -Reagan\'s Press Secretary, Larry Speakes' , b, 120);
+textSize(85);
+text('"AIDS is the wrath of God upon homosexuals" -Jerry Falwell', c, 200);
+textSize(30);
+text('BAYER MEMORANDUM JANUARY 1983: "There is strong evidence to suggest that AIDS is passed through plasma products." PUSHED TAINTED PRODUCT TO ASIA AND LATIN AMERICA UNTIL 1985 KILLING THOUSANDS', b, 250);
+textSize(60);
+text(' RUDY BABY, DON\'T YOU SEE YOUR BUDGET CUTS ARE KILLING ME? GUILIANI: NO MORE LIES! DON\'T BALANCE THE BUDGET WITH OUR LIVES', d, 320);
+textSize(100);
+text('freddie mercury eazy-e angie xtravaganza isaac asimov michel foucault liberace peter allen keith haring howard ashman angel may vito russo alvin ailey bobbi campbell peter cowley', a, 400);
+textSize(40);
+text('Surgeon General C. Everett Koop mailed AIDS information pamphlet to all American households OVER REAGAN ADMINISTRATION OPPOSITION', x, 450);
+textSize(80);
+text('HISTORY WILL RECALL: GEORGE BUSH DID NOTHING AT ALL! ', d, 545);
+textSize(30);
+text('658,507 deaths from AIDS in the United States -- WHERE IS THE MEMORY OF THE GENOCIDE', e, 600);
+textSize(90);
+text('ACT UP! FIGHT BACK! FIGHT AIDS! ', f, 630);
+textSize(100);
+text('rudolf nureyev robert mapplethorpe marlon riggs randy shilts willi ninja bill sherwood sylvester gil scott-heron dorian corey gia carangi robert rafsky  arthur ashe leigh bowery cazuza fela kuti pedro zamora glenn burke', a, 700);
+textSize(25);
+text('"existing budget and appropriations processes are effective in funding these [AIDS] activities" -ED BRANDT ASSISTANT HHS SECRETARY TO CONGRESS. PRIVATELY NOTED URGENT NEED FOR NEW FUNDING', c, 750);
+spr.width = 10;
+	spr.height = 10;
+	drawSprites();
+
+	/*
+	background(0);
+	fill(1, 163, 176);
+	text("And in that moment, I swear we were infinite...", windowWidth/5, windowHeight/5);*/
+	
+
+	x = x - 2;
+	if (x < -1200) {
+		x=x+2600;
+	}
+	a = a- 2;
+	if (a < -1500) {
+		a=a+1922;
+	}
+	b = b - 2;
+	if (b < -1500) {
+		b=b+3456;
+	}
+	c = c - 2;
+	if (c < -1500) {
+		c=c+3000;
+	}
+	d = d - 2;
+	if (d < -1500) {
+		d=d+4152;
+	}
+	e = e- 2;
+	if (e < -1500) {
+		e=e+2734;
+	}
+
+	f = f- 2;
+	if (f < -1500) {
+		f=f+2734;
+	}
+
+}
+
+function mousePressed(){
+	// if click sprite is first thing clicked
+	if (clickShow.mouseIsPressed){
+		//make invisible
+		clickShow.visible = false;
+	}
+	// if click sprite is not first thing clicked
+	if(clickShow.visible == true){
+		//make invisible
+		clickShow.visible = false;
+	}
+	//make new sprite at mouse position
+  var newSprite;
+  newSprite = createSprite(width/20, height/20);
+  newSprite.addAnimation("default", thingTwo);
+  newSprite.position.x = mouseX;
+  newSprite.position.y = mouseY;
+  //volume = volume - 3;
+  speed = speed + .25;
+  //babyCry.amp(volume);
+  //babyCry.rate(speed);
+  var randk = Math.floor(Math.random() * 55) + 1
+  thingTwo = loadImage('https://easkira.github.io/midterm/png/'+pics.kitten[randk].file+'');
+}
+
+
+
+
+</script>
+  </head>
+</html>
