@@ -1,59 +1,39 @@
 <html>
 <style>
+html { 
+  background: url(6.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 </style>
   <head>
+
   
     <script src="p5.min.js"></script>
     <script src="p5.play.js"></script>   
 <script>
-
-
-var thingTwo;
-var spr;
-var clickShow;
-
-
-var actup;
-var bg;
+function preload () {
+	x=-4200
+	t=0
+}
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-	img = loadImage("8a.jpg");
+	img = loadImage("https://easkira.github.io/final/8a.jpg");
 }
 
 function draw(){
-	image(img, x, 0);
-  x=x-2
- if (x < 0) {
-		x=x+2;
+	image(img, x, 0, img.width, img.height);
+  x=x+10
+  t=t+1
+ if (x > 3000) {
+		x=x-10;
 	}
 
 }
 
-function mousePressed(){
-	// if click sprite is first thing clicked
-	if (clickShow.mouseIsPressed){
-		//make invisible
-		clickShow.visible = false;
-	}
-	// if click sprite is not first thing clicked
-	if(clickShow.visible == true){
-		//make invisible
-		clickShow.visible = false;
-	}
-	//make new sprite at mouse position
-  var newSprite;
-  newSprite = createSprite(width/20, height/20);
-  newSprite.addAnimation("default", thingTwo);
-  newSprite.position.x = mouseX;
-  newSprite.position.y = mouseY;
-  //volume = volume - 3;
-  speed = speed + .25;
-  //babyCry.amp(volume);
-  //babyCry.rate(speed);
-  var randk = Math.floor(Math.random() * 55) + 1
-  thingTwo = loadImage('https://easkira.github.io/midterm/png/'+pics.kitten[randk].file+'');
-}
 
 
 
