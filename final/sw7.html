@@ -1,0 +1,69 @@
+<style>
+/*this block of code makes an image take up the full background of a page*/
+@font-face {
+    font-family: jepan;
+    src: url(easkira.github.io/Jepanten.ttf);
+}
+html { 
+  background: url(8.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+</style>
+<form>
+<input class="MyButton" type="button" value="i'm uncomfortable" onclick="window.location.href='http://easkira.github.io/site/sw5.html'" />
+</form>
+<head>
+
+<style>
+input.MyButton {
+margin-left: 80%;
+margin-top: 30%;
+width: 300px;
+display: block;
+cursor: pointer;
+font-size: 180%;
+background: #cee2d0;
+color: #f61d3c;
+font-family: jepan;
+border: 1px solid #cee2d0;
+border-radius: 1px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+}
+input.MyButton:hover {
+color: #cee2d0;
+font-family: jepan;
+background: #000;
+border: 1px solid #000;
+-moz-box-shadow:: 5px 5px 4px #adadad;
+-webkit-box-shadow:: 5px 5px 4px #adadad;
+box-shadow:: 5px 5px 4px #adadad;
+} </style>
+
+
+ <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>   
+<script>
+var img;
+
+function setup() {
+  createCanvas(640, 360);
+  img = createImg("88.jpg", test);
+  img.hide();
+}
+
+
+function draw() {
+  background(0);
+  image(img, x, 0);
+  x=x-2
+ if (x < 0) {
+		x=x+2;
+	}
+}
+</head>
