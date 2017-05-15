@@ -6,6 +6,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+
 }
 </style>
   <head>
@@ -14,14 +16,20 @@ html {
     <script src="p5.min.js"></script>
     <script src="p5.play.js"></script>   
 <script>
+setTimeout(function(){window.location.href='http://easkira.github.io/final/sw9.html'},8000);
+var button;
 function preload () {
 	x=-4200
 	t=0
 }
+var button;
+
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
 	img = loadImage("https://easkira.github.io/final/8a.jpg");
+
+  
 }
 
 function draw(){
