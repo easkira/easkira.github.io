@@ -1,0 +1,88 @@
+<html>
+<style>
+
+</style>
+  <head>
+
+  
+    <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>   
+<script>
+setTimeout(function(){window.location.href='http://easkira.github.io/final/sw11.html'},7500);
+var c1;
+var timeout;
+var c2;
+var c3;
+var c4;
+var c5;
+
+function preload () {
+   c1 = loadImage("https://easkira.github.io/final/10a.jpg");
+  timeout = loadImage("https://easkira.github.io/final/10b.jpg");
+  c2 = loadImage("https://easkira.github.io/final/10c.jpg");
+  c3 = loadImage("https://easkira.github.io/final/10d.jpg");
+  c4 = loadImage("https://easkira.github.io/final/10e.jpg");
+  c5 = loadImage("https://easkira.github.io/final/10f.jpg");
+
+  x=0
+  t=0
+}
+var button;
+
+
+function setup() {
+  createCanvas(windowWidth,windowHeight);
+
+  
+}
+
+
+function draw(){
+ background(c1);
+  x=x+10
+ if (x > 150) {
+  background(timeout);
+   
+  }
+  if (x > 300) {
+  background(c2);
+   
+  }
+  if (x > 450) {
+  background(timeout);
+   
+  }
+  if (x > 600) {
+  background(c3);
+   
+  }
+  if (x > 750) {
+  background(timeout);
+   
+  }
+  if (x > 900) {
+  background(c4);
+   
+  }
+  if (x > 1050) {
+  background(timeout);
+   
+  }
+  if (x > 1200) {
+  background(c5);
+   
+  }
+  if (x > 1350) {
+  background(timeout);
+   
+  }
+ 
+}
+
+
+
+
+
+</script>
+  </head>
+</html>
